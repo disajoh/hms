@@ -26,7 +26,7 @@ Route::get('/users/edit', 'UsersController@edit');
 Route::get('/bookings', 'BookingsController@index')->name('bookings');
 
 Route::get('/bookings/edit', 'BookingsController@edit');
-Route::get('/bookings/newreservation', 'BookingsController@create')->name('newreservation');
+Route::get('/bookings/newreservation', 'CustomersController@create')->name('newreservation');
 Route::get('/bookings/existingreservation', 'BookingsController@create')->name('existingreservation');
 
 //new reservation uses two tables. First update customers table then use eloquent to update bookings

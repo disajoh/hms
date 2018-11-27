@@ -16,7 +16,7 @@ class CustomersController extends Controller
 
 
     public  function create(){
-        
+        return view('bookings.newreservation');
     }
 
     public  function store(Request $request){
