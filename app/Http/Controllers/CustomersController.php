@@ -81,7 +81,7 @@ class CustomersController extends Controller
              'discount' => $request->input('discount'),
         ]);
 
-        return view('bookings.newreservation');
+        return redirect('/bookings');
         
     }
 
