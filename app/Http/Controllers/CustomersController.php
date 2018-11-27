@@ -80,6 +80,8 @@ class CustomersController extends Controller
              'amount_paid' => $request->input('amount_paid'),
              'discount' => $request->input('discount'),
         ]);
+
+        return view('bookings.newreservation');
         
     }
 
