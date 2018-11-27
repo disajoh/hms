@@ -22,7 +22,7 @@ class BookingsController extends Controller
 
     public  function create(){
         
-       return view('bookings.existing_customers_reservation');
+       return view('bookings.newreservation');
     }
 
     public  function store(Request $data){
